@@ -12,6 +12,17 @@ dayzHiveRequest = [];
 initialized = false;
 dayz_previousID = 0;
 
+// Default Loadout config
+
+DefaultMagazines = ["ItemBandage","ItemBandage","ItemPainkiller","FoodMRE","ItemGoldBar1oz","ItemSoda"];
+
+DefaultWeapons = ["ItemMap","ItemGPS","ItemMachete"];
+
+DefaultBackpack = "";
+
+DefaultBackpackWeapon = "";
+
+
 //disable greeting menu 
 player setVariable ["BIS_noCoreConversations", true];
 //disable radio messages to be heard and shown in the left lower corner of the screen
